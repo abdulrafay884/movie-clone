@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+
+body {
+    background-color: black;
+}
+
+.box {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 9px;
+
+
+}
+
+.net {
+    margin: auto;
+    font-weight: bolder;
+    color: red;
+    font-size: 30px;
+    padding: 5px;
+    position: relative;
+
+
+}
+
+#nett {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: red;
+    color: beige;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 25px 2px 18px 1px rgb(22 23 24);
+}
+
+.main-text {
+    color: beige;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.background {
+    background-image: url("img & video/1.jpg")
+}
+
+.nav {
+    height: 90vh;
+    width: 100%;
+    opacity: 0.25;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.main-text .movie{
+    font-size: 48px;
+}
+
+.main-text .movies{
+    font-size: 43px;
+}
+
+.main-text .moviess{
+    font-size: 25px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.email{
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+}
+
+#enter{
+    background-color: rgb(22,23,24);
+    height: 35px;
+    width: 40%;
+    padding: 12px;
+    border: 2px solid rgb(29,29,40);
+    background-color: transparent;
+    color: beige;
+
+}
+
+.gaming{
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    margin: auto;
+    top: 67%;
+    width: 100%;
+    text-align: center;
+}
+
+.btn2{
+    text-align: center;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: red;
+    color: beige;
+    font-weight: bolder;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 25px 2px 18px 1px rgb(22 23 24);
+}
+
+.seperate{
+    background-color: rgb(22,23,24);
+    height: 10px;
+    width: 100%;
+}
+
+.trending{
+    position: relative;
+    color: beige;
+    margin: 25px;
+    padding: 25px;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 25px;
+    padding: 25px;
+    flex-wrap: wrap ;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.photo img:hover{
+    border-radius: 15px;
+    opacity: 0.5;
+}
+
+.photo img:active{
+    border-radius: 45px;
+    opacity: 0.3;
+}
+
+.block{
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    cursor: pointer;
+    
+}
+
+.square{
+    background-color: #341d61;
+    height: 35vh;
+    width: 35vw;
+    color: beige;
+    box-shadow: 
+    0 0 10px #1d162b,
+    0 0 20px #1d162b,
+    0 0 40px #1d162b,
+    0 0 80px #1d162b;;
+    text-align: center;
+    border-radius: 9px;
+    
+}
+
+
+
+.question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    color: beige;
+    margin: 10px;
+    width: 90%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.answer{
+    margin: auto;
+    height: 10vh;
+    width: 65vw;
+    background-color: #2d2d2d;
+    padding: 10px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+ 
+}
+
+.answer:hover{
+    background-color: #800c0c;
+    color: black;
+    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition-delay: 0.1s;
+    transition-duration: 5s;  
+}
+
+.square:hover{
+    background-color: #5605f7;
+    color: #000000;
+    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition-duration: 5s;
+    transition-delay: 0.1;
+}
+
+.faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.q{
+    color: beige;
+}
